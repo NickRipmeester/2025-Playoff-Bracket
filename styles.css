@@ -1,0 +1,311 @@
+body {
+    background-color:#1a1a1a;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+.bracket {
+    
+    font-family: "League Spartan", sans-serif;
+  
+}
+
+.bracket-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.bracket-header img {
+
+    min-width: 100px;
+    max-width: 300px;
+}
+
+.playoffs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+.final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.playoffs-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center; 
+}
+
+
+.matchup {
+    min-width: 400px;
+    background-color: rgba(255, 255, 255, .07);
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 20px;
+    border: 2px solid #6d6d6d;
+    color: #fff;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 8px;
+    
+    
+}
+
+.matchup-final {
+    
+    background-color: rgba(255, 255, 255, .07);;
+    height: 200px;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 20px;
+    border: 2px solid #6d6d6d;
+    color: #fff;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.final-team-1 {
+    
+    min-width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    
+}
+.final-team-2 {
+    
+    min-width:200px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    
+}
+
+
+
+.west, .east {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.west {
+    margin-right: 10%;
+}
+
+.away-team {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 20px;
+    min-height: 80px;
+    
+    
+}
+
+.divider {
+    height: 2px;
+    background-color: #6d6d6d ;
+    width: 80%;
+    margin: 2px auto;
+}
+
+.divider-fin {
+    width: 2px;
+    background-color:#6d6d6d ;
+    height: 80%;
+    margin: auto;
+}
+
+.home-team {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 80px;
+
+    
+}
+
+.round-heading {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    font-weight: 500;
+    
+}
+.team-name {
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.seeding {
+    color: rgb(185, 185, 185);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin:2px auto;
+    
+}
+
+
+.full-width {
+    font-size: 24px;
+    padding: 0;
+    font-weight: 500;
+    margin: auto;
+}
+
+.mid-width {
+    font-size: 20px;
+    padding: 0;
+    margin: auto;
+}
+
+
+
+.lost  p {
+    color:#6d6d6d;
+}
+
+.lost img {
+    opacity: 30%;
+}
+.score {
+    font-size: 24px;
+    font-weight: 600;
+    color: #e0e0e0;
+    min-width: 75px;
+}
+
+.hide-score {
+    display: none;
+}
+
+
+
+.pre-game {
+    display: none;
+}
+
+.game-link {
+    color: #fff;
+    text-decoration: none;
+    cursor: cursor;
+}
+
+.matchup:hover {
+    border: 2px solid #585858;
+    
+}
+.matchup-final:hover {
+    border: 2px solid #585858;
+    
+}
+
+.team-icon {
+    height: 30px;
+    padding: 10px;
+    margin: auto;
+}
+
+
+
+.advance-arrows {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .full-width {
+        display: none;
+        
+
+    }
+    .matchup{
+        min-width: 151px;
+        padding: 4px;
+    }
+
+    .team-icon {
+        height: 20px;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .score {
+        font-size:20px;
+        font-weight: 600;
+        color: #e0e0e0;
+        min-width: 75px;
+    }
+    .away-team {
+        min-height: 60px;
+    }
+
+    .final-team-1,.final-team-2 {
+        min-width: 100px;
+    }
+
+    .matchup-final {
+        height: auto;
+    }
+
+
+}
+@media screen and (min-width: 1000px) {
+    .mid-width {
+        display: none;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .mid-width {
+        display: none;
+
+    }
+
+    .seeding {
+        display: none;
+    }
+    .away-team {
+        min-height: 50px;
+    }
+    .away-team {
+        justify-content: center;
+    }
+    .final-team-1,.final-team-2 {
+        min-width:50px;
+    }
+}
