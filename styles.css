@@ -18,6 +18,7 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 25px;
+    margin-top:50px;
 }
 .bracket-header img {
 
