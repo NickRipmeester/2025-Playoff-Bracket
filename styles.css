@@ -2,6 +2,8 @@ body {
     background-color:#0a0a0a;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    
     
 
 }
@@ -17,7 +19,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     margin-top:50px;
 }
 .bracket-header img {
@@ -50,12 +52,12 @@ body {
 
 
 .matchup {
-    min-width: 400px;
-    background-color: rgba(255, 255, 255, .07);
+    min-width: 300px;
+    background-color: rgba(78, 78, 78, 0.07);
     text-align: center;
     margin: 0 20px;
     border-radius: 20px;
-    border: 2px solid #6d6d6d;
+    border: 2px solid #3f3f3f;
     color: #fff;
     text-decoration: none;
     box-sizing: border-box;
@@ -66,13 +68,13 @@ body {
 
 .matchup-final {
     
-    background-color: rgba(255, 255, 255, .07);;
+    background-color: rgba(78, 78, 78, 0.07);
     height: 200px;
     max-width: 500px;
     text-align: center;
     margin: 0 20px;
     border-radius: 20px;
-    border: 2px solid #6d6d6d;
+    border: 2px solid #3f3f3f;
     color: #fff;
     text-decoration: none;
     box-sizing: border-box;
@@ -122,15 +124,15 @@ body {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    min-height: 20px;
-    min-height: 80px;
+    
+    min-height: 50px;
     
     
 }
 
 .divider {
     height: 2px;
-    background-color: #6d6d6d ;
+    background-color: #3f3f3f ;
     width: 80%;
     margin: 2px auto;
 }
@@ -152,7 +154,7 @@ body {
 }
 
 .round-heading {
-    color: rgb(255, 255, 255);
+    color: rgb(202, 200, 200);
     text-align: center;
     font-size: 10px;
     letter-spacing: 1px;
@@ -175,15 +177,16 @@ body {
 }
 
 
+
 .full-width {
-    font-size: 24px;
+    font-size: 18px;
     padding: 0;
     font-weight: 500;
     margin: auto;
 }
 
 .mid-width {
-    font-size: 20px;
+    font-size: 18px;
     padding: 0;
     margin: auto;
 }
@@ -198,10 +201,12 @@ body {
     opacity: 30%;
 }
 .score {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 600;
     color: #e0e0e0;
     min-width: 75px;
+    margin: 0;
+    padding:0;
 }
 
 .hide-score {
@@ -230,7 +235,8 @@ body {
 }
 
 .team-icon {
-    height: 30px;
+    height: 25px;
+        max-width: 40px;
     padding: 10px;
     margin: auto;
 }
@@ -245,19 +251,22 @@ body {
 
 
 
-@media screen and (max-width: 1000px) {
+
+
+@media screen and (max-width: 4000px) {
     .full-width {
         display: none;
         
 
     }
     .matchup{
-        min-width: 151px;
+        min-width: 180px;
         padding: 4px;
     }
 
     .team-icon {
-        height: 20px;
+        height: 25px;
+        max-width: 40px;
         padding: 10px;
         margin: auto;
     }
@@ -282,7 +291,7 @@ body {
 
 
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 4000px) {
     .mid-width {
         display: none;
     }
@@ -308,5 +317,9 @@ body {
     }
     .final-team-1,.final-team-2 {
         min-width:50px;
+    }
+
+    .matchup{
+        min-width: 150px;
     }
 }
