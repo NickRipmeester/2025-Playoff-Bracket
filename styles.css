@@ -236,8 +236,8 @@ body {
 }
 
 .team-icon {
-    
-        max-width: 0px;
+    height:30px;
+        max-width: 50px;
     padding: 10px;
     margin: auto;
 }
