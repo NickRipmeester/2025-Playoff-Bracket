@@ -254,6 +254,14 @@ body {
     pointer-events: none;
 }
 
+.trophy {
+    border: 1 solid #3f3f3f;
+    width:100px;
+    height:100%;
+    
+}
+
+
 
 
 
