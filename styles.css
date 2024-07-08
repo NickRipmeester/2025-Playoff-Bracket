@@ -19,13 +19,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 50px;
-    margin-top:50px;
+    margin-bottom: 25px;
+    margin-top:15px;
 }
 .bracket-header img {
 
     min-width: 100px;
-    max-width: 300px;
+    max-width: 250px;
+    width: 60%;
 }
 
 .playoffs {
@@ -84,6 +85,8 @@ body {
     
     
 }
+
+
 
 .final-team-1 {
     
@@ -264,7 +267,7 @@ body {
 
     .team-icon {
         height: 30px;
-        max-width: 50px;
+        max-width: 40px;
         padding: 10px;
         margin: auto;
     }
