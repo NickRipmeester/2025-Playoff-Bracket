@@ -86,7 +86,9 @@ body {
     
 }
 
-
+.won {
+    color:#b6933f;
+}
 
 .final-team-1 {
     
@@ -115,7 +117,7 @@ body {
 .west, .east {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -160,6 +162,18 @@ body {
     font-size: 10px;
     letter-spacing: 1px;
     margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 500;
+    
+}
+
+.time {
+    color: rgb(202, 200, 200);
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 5px; 
+    margin-bottom: 0;  
     font-weight: 500;
     
 }
@@ -260,6 +274,7 @@ body {
     height:100%;
     
 }
+
 
 
 
