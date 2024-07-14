@@ -8,6 +8,15 @@ body {
 
 }
 
+.sub {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 .watch-live {
     color: #e0e0e0;
     display: flex;
