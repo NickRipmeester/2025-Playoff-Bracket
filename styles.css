@@ -165,7 +165,7 @@ p.legend {
     justify-content:space-around;
     align-items: center;
     
-    min-height: 50px;
+    min-height: 40px;
     
     
 }
@@ -288,7 +288,7 @@ p.legend {
 }
 
 .team-icon {
-    height:30px;
+    height:20px;
         max-width: 50px;
     padding: 10px;
     margin: auto;
@@ -376,7 +376,7 @@ p.legend {
         display: none;
     }
     .away-team {
-        min-height: 50px;
+        min-height: 60px;
     }
     .away-team {
         justify-content: center;
