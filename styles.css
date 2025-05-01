@@ -374,7 +374,7 @@ p.legend {
 
     }
     */
-    *.seeding {
+    .seeding {
         display: none;
     }
     .away-team {
