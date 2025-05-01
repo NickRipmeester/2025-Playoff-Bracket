@@ -83,6 +83,7 @@ p.legend {
 
 .playoffs-final {
     display: flex;
+    min-height: 5em;
     flex-direction: row;
     justify-content: center;
     align-content: center; 
@@ -367,12 +368,13 @@ p.legend {
 
 
 @media screen and (max-width: 500px) {
-    .mid-width {
+    /* unhide when logos are added
+     .mid-width {
         display: none;
 
     }
-
-    .seeding {
+    */
+    *.seeding {
         display: none;
     }
     .away-team {
